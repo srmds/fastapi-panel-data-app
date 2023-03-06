@@ -1,0 +1,5 @@
+panel
+fastapi[all]
+hvplot
+pandas
+fastapi-login

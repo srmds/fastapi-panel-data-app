@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>grid-container {display: grid;}</style>
+</head>
+<body>
+<h1>FastAPI - Data app </h1>
+<div class="grid-container">
+    <div class="grid-item">
+        <h2>Google maps app</h2>
+        <p><a href="http://127.0.0.1:5000/maps"><img src="{{ url_for('static', path='images/maps-icon.png') }}" alt="" width="250" height="250"></a></p>
+
+    </div>
+    <div class="grid-item">
+        <h2>Sine wave app</h2>
+        <p><a href="http://127.0.0.1:5000/sine"><img src="{{ url_for('static', path='images/sine-icon.png') }}" alt="" width="250" height="250"></a></p>
+    </div>
+</div>
+</body>
+</html>
